@@ -1,40 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+#야구장 좌석뷰 찾기
 
-## Getting Started
+### 사용 대상
 
-First, run the development server:
+- 야구장을 가려는 사람들
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 문제 의식
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 처음 야구장을 가는 사람들은 좌석에 대한 정보가 부족하다.
+- 야구장의 좌석 뷰가 어떤지 블로그를 검색하거나 유튜브를 검색해야 한다.
+- 야구장에 가기 전 미리 좌석을 확인할 수 있는 방법이 없다.
+- 좌석을 예매할 때 대부분 자동배정으로 돌리기 때문에 예매 완료 후 좌석을 확인해야 한다.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 제공 서비스
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- 좌석에 따라 장점과 단점을 확인할 수 있어야 한다.
+- 좌석 번호를 입력하면 그 좌석의 뷰를 확인할 수 있어야 한다.
+- 좌석 번호에 대한 뷰가 없으면 근처 좌석의 뷰를 확인할 수 있어야 한다.
+- 원하는 뷰의 특징을 입력하면 그 뷰를 제공하는 좌석을 추천해 줄 수 있어야 한다.
+- 좌석 근처에 있는 먹거리를 추천해 줄 수 있어야 한다.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### 사용 기술 및 라이브러리
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Java
+- Spring Boot
+- JPA
+- Next.js
+- Docker
+- MySQL
