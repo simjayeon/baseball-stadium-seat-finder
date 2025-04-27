@@ -1,5 +1,9 @@
-import Layout from "@/containers/Layout";
+import Layout from "@/components/layouts/Layout";
+import PageLogin from "@/pages/login/PageLogin";
 
 export default function Home() {
-    return <Layout/>
+    return (
+        <Layout
+            rightContent={<PageLogin/>}/>
+    );
 }
